@@ -1,0 +1,49 @@
+
+
+public class Aluno {
+    private String nome;
+    private String matricula;
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getMatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
+    }
+   
+    public String toString(){
+    return ("nome: "+this.getNome()+" matricula: "+this.getMatricula());
+    }
+}
+package listaencadeda;
+
+public class no{
+   private aluno informacao;
+   private no proximono;
+
+    public aluno getInformacao() {
+        return informacao;
+    }
+
+    public no getProximono() {
+        return proximono;
+    }
+
+    public void setInformacao(aluno informacao) {
+        this.informacao = informacao;
+    }
+
+    public void setProximono(no proximono) {
+        this.proximono = proximono;
+    }
+   
+}

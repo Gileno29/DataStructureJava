@@ -1,0 +1,27 @@
+package ifrn.edu.br;
+
+import ifrn.edu.br.dominio.Aluno;
+import ifrn.edu.br.util.Vetor;
+import ifrn.edu.br.util.VetorArray;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		Aluno a = new Aluno("Binho", "123");
+		Aluno b = new Aluno("Zefinha", "321");
+		
+		Vetor edl = new VetorArray(10);
+		edl.inserir(a);
+		edl.inserir(b);
+		edl.inserir(a);
+		
+		
+		edl.remover(2);
+		
+		edl.inserir(a);
+		
+
+	}
+
+}

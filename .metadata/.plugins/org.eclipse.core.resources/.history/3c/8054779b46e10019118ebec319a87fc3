@@ -1,0 +1,18 @@
+package principal;
+
+import auxiliar.Aluno;
+import structure.ListaEncadeada;
+
+public class Principal {
+	public static void main(String[]args) {
+
+		ListaEncadeada inserirNaLista= new ListaEncadeada();
+		Aluno aluno = new Aluno();
+		Aluno aluno2 = new Aluno();
+		
+		inserirNaLista.inserir(aluno);
+
+
+
+}
+}

@@ -1,0 +1,50 @@
+package structure;
+
+import auxiliar.Aluno;
+import auxiliar.No;
+
+public class ListaEncadeada {
+	private No primeiro;
+	private No ultimo;
+	private int size;
+	
+	
+	public ListaEncadeada() {
+		this.primeiro=null;
+		this.ultimo=null;
+	}
+	
+	public void addP(Aluno aluno) {
+		No novo= new No() ;
+		novo.setInformacao(aluno);
+		if(isEmpty()) {
+			System.out.println("A lista está vazia");
+			this.primeiro=novo;
+			this.ultimo=novo;
+		}else{
+			No atual= primeiro;
+			No anterior=null;
+			while(atual!=null) {
+				anterior=atual;
+				atual.getProximo();
+			}
+			anterior.setProximo(atual);
+		
+		}
+		
+	}
+	
+	
+	public void visualizarLista() {
+		No auxiliar= primeiro;
+		while(auxiliar!=null) {
+			auliar=auxiliar.getProximo();
+			System.out.println(auxiliar);
+			
+		}
+	}
+	public boolean isEmpty() {
+		return this.primeiro==null;
+	}
+
+}

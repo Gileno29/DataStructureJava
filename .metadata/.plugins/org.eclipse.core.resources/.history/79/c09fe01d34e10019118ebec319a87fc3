@@ -1,0 +1,29 @@
+package structure;
+
+import auxiliar.Aluno;
+import auxiliar.No;
+
+public class ListaEncadeada {
+	private No primeiro;
+	private No ultimo;
+	private int size;
+	
+	
+	public ListaEncadeada() {
+		this.primeiro=null;
+		this.ultimo=null;
+	}
+	
+	public void addP(Aluno aluno) {
+		if(isEmpty()) {
+			System.out.println("A lista está vazia");
+		}else {
+		
+		}
+		
+	}
+	public boolean isEmpty() {
+		return this.primeiro==null;
+	}
+
+}

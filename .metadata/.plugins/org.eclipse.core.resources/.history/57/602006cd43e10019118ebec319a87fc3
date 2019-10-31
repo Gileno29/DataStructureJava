@@ -1,0 +1,24 @@
+package auxiliar;
+
+public class No {
+	private Aluno[] informacao;
+	private No proximo;
+	
+
+	
+	public void setProximo(No proximo) {
+		this.proximo=proximo;
+	}
+	public void setInformacao(Aluno[] aluno) {
+		this.informacao=aluno;
+		
+	}
+	public Aluno[] getInformacao() {
+		return this.informacao;
+		
+	}
+	public No getProximo() {
+		return this.proximo;
+	}
+
+}

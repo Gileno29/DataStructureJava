@@ -1,0 +1,14 @@
+package principal;
+
+import auxiliar.Aluno;
+import structure.ListaEncadeada;
+
+public class Principal {
+	public static void main(String[]args) {
+
+		ListaEncadeada inserirNaLista= new ListaEncadeada();
+
+
+
+}
+}

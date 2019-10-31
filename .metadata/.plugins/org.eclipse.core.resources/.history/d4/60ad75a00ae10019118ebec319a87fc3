@@ -1,0 +1,20 @@
+package auxiliar;
+
+public class No {
+	private Aluno informacao;
+	private No proximo;
+	
+	
+	public void setProximo(No proximo) {
+		this.proximo=proximo;
+	}
+	public void setInformacao(Aluno informacao) {
+		this.informacao=informacao;
+		
+	}
+	public Aluno getInformacao() {
+		return this.informacao;
+		
+	}
+
+}

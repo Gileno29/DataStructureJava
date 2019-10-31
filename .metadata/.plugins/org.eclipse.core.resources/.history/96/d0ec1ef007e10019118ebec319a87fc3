@@ -1,0 +1,15 @@
+package structure;
+
+import auxiliar.No;
+
+public class ListaEncadeada {
+	private No primeiro;
+	private No ultimo;
+	
+	
+	public ListaEncadeada() {
+		this.primeiro=null;
+		this.ultimo=null;
+	}
+
+}

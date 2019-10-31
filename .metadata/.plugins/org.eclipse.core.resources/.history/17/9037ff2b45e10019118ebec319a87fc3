@@ -1,0 +1,23 @@
+package listaencadeda;
+
+public class No{
+   private aluno informacao;
+   private no proximono;
+
+    public aluno getInformacao() {
+        return informacao;
+    }
+
+    public no getProximono() {
+        return proximono;
+    }
+
+    public void setInformacao(aluno informacao) {
+        this.informacao = informacao;
+    }
+
+    public void setProximono(no proximono) {
+        this.proximono = proximono;
+    }
+   
+}
